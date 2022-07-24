@@ -1,0 +1,34 @@
+
+
+
+
+
+[
+    {
+        "id": 1,
+        "picture": "imagen1",
+        "name": "toy story",
+        "age": 12,
+        "weight": 30,
+        "history": "most iconic character of all entire disney history",
+        "moviesOrSeries": ["serie1", "serie2"]
+    },
+    {
+        "id": 2,
+        "picture": "imagen2",
+        "name": "Mini Mouse",
+        "age": 44,
+        "weight": 30,
+        "history": "most iconic character of all entire disney history",
+        "moviesOrSeries": ["serie123", "serie223"]
+    },
+    {
+        "id": 3,
+        "picture": "imagen3",
+        "name": "Pluto",
+        "age": 122,
+        "weight": 307,
+        "history": "most iconic character of all entire disney history",
+        "moviesOrSeries": ["serie1333", "serie233"]
+    }
+]

@@ -1,0 +1,5 @@
+export {default as character} from './interface/character'
+export {default as movie} from './interface/movie'
+export {default as genre} from './interface/genre'
+export {default as loggin} from './interface/loggin'
+export {default as register} from './interface/register'
