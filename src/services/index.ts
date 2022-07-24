@@ -1,17 +1,18 @@
 
 
+import jwt from 'jwt-simple'
+import moment from 'moment'
 
-var jwt = require("jwt-simple");
-var moment = require("moment");
-var config = require("./config");
+import TOKEN_SECRET from '../config'
+
 
 const createToken = (user) => {
   var payload = {
-    sub: user._id,
+    sub: user.id,
     iat: moment().unix(),
     exp: moment().add(14, "days").unix(),
   };
-  return jwt.encode(payload, config.TOKEN_SECRET);
+  return jwt.encode(payload, TOKEN_SECRET);
 };
 
 export default createToken;

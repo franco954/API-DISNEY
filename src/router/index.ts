@@ -10,7 +10,7 @@ import {getAllCharacters, getAllMovies, authLoggin, authRegister} from '../contr
 const router = express.Router()
 
 // authentication
-router.post('/auth/login', authLoggin)
+router.post('/auth/loggin', authLoggin)
 router.post('/auth/register', authRegister)
 
 //character search
