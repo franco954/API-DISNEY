@@ -9,9 +9,12 @@ require('dotenv').config()
 import express from 'express'
 import cors from 'cors'
 import router from './src/router'
+import auth from './src/db/connect'
 
 const app = express()
 const PORT = process.env.PORT
+auth()
+
 
 
 
