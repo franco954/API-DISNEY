@@ -3,6 +3,7 @@
 
 // establezco la utilizacion de var de entorno
 require('dotenv').config()
+import {notFound} from './src/middleware'
 
 
 
@@ -21,7 +22,7 @@ auth()
 app.use(cors())
 app.use(express.json())
 app.use(router)
-// app.use(notFound)
+app.use(notFound)
 // app.use(handleError)
 
 
